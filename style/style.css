@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    /* Google Font Poppins */
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+}
+
+/* These are the navigation styles */
+nav{
+    display: flex;
+}
+
+nav p{
+    display: inline-block;
+    padding: 7px 15px;
+}
+
+#site-name{
+    font-family: 'Lobster Two', cursive;
+    width: 50%;
+    text-align: start;
+    background-color: cadetblue;
+    padding: 0 20px;
+}
+
+#site-name h1{
+    padding-left: 20px;
+}
+
+#menu{
+    width: 50%;
+    text-align: end;
+    background-color: aqua;
+    padding: 0 20px;
+}
+
+/* These are Section-1 styles */
+#section-1>div{
+    display: flex;
+    margin: 0;
+}
+
+#introduction{
+    width: 50%;
+    /* background-color: aqua; */
+}
+
+#introduction>div{
+    padding: 50px 40px;
+}
+
+#introduction a{
+    text-decoration: none;
+    background-color: rgb(17, 137, 207);
+    padding: 10px 15px;
+    color: white;
+    border: 3px solid rgb(8, 119, 146);
+    border-radius: 15px;
+}
+#introduction a:hover{
+    text-decoration: none;
+    background-color: rgba(0, 0, 255, 0);
+    padding: 10px 15px;
+    color: blue;
+    border: 3px solid blue;
+    border-radius: 15px;
+}
+
+#lence{
+    width: 50%;
+    padding: 30px 0px;
+    background-color: rgba(137, 43, 226, 0.795);
+    text-align: center;
+}
+#lence img{
+    width: 300px;
+    padding: 50px;
+    background-color: blue;
+    border-radius: 250px;
+}
+#lence img:hover{
+    width: 380px;
+    padding: 10px;
+}
+
+/* These are Section-2 styles */
+
+#section-2>div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+}
+
+.logo{
+    padding: 10px 25px;
+}
+.logo img{
+    width: 140px;
+    padding: 20px;
+}
+.logo img:hover{
+    width: 160px;
+    padding: 10px;
+}
